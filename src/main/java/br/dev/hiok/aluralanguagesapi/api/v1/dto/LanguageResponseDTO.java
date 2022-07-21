@@ -7,8 +7,8 @@ public class LanguageResponseDTO {
   private String id;
   private String nome;
   private String urlImagem;
-  private int classificacao;
-  private int usos;
+  private String classificacao;
+  private String usos;
 
   public String getId() {
     return id;
@@ -34,19 +34,19 @@ public class LanguageResponseDTO {
     this.urlImagem = urlImagem;
   }
 
-  public int getClassificacao() {
+  public String getClassificacao() {
     return classificacao;
   }
 
-  public void setClassificacao(int classificacao) {
+  public void setClassificacao(String classificacao) {
     this.classificacao = classificacao;
   }
 
-  public int getUsos() {
+  public String getUsos() {
     return usos;
   }
 
-  public void setUsos(int usos) {
+  public void setUsos(String usos) {
     this.usos = usos;
   }
 
@@ -55,8 +55,8 @@ public class LanguageResponseDTO {
     languageResponse.setId(language.getId());
     languageResponse.setNome(language.getName());
     languageResponse.setUrlImagem(language.getImageUrl());
-    languageResponse.setClassificacao(language.getRanking());
-    languageResponse.setUsos(language.getUses());
+    languageResponse.setClassificacao(String.valueOf(language.getRanking()));
+    languageResponse.setUsos(String.valueOf(language.getUses()));
     return languageResponse;
   }
   
