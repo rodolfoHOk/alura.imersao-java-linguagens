@@ -139,10 +139,47 @@
 
 #### Desafios feitos até o momento:
 
-1,
+1
 
 ### Maven
 
 - Comando para baixar dependências, rodar os testes e compilar
 
             ./mvnw package
+
+### Heroku
+
+1. Criar projeto no heroku
+
+   - acessar site do heroku
+   - fazer o login
+   - clicar no botão New e selecionar Create new app
+   - preencher um nome e criar
+
+2. Comandos terminal
+
+   - instalar a Heroku CLI
+
+            curl https://cli-assets.heroku.com/install.sh | sh
+
+            heroku --version
+
+   - fazer login no Heroku
+
+            heroku login
+
+   - configurar repositório remoto no Heroku 
+
+            heroku git:remote -a alura-languages
+
+   - subir projeto no Heroku
+
+            criar arquivo system.properties
+            adicionar linha: java.runtime.version=17
+            git add .
+            git commit "deploy heroku"
+            git push heroku main
+
+3. testar acesso a api no heroku no navegador
+
+            https://alura-languages.herokuapp.com/api/v1/linguagens
