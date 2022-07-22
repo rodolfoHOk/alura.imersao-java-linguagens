@@ -125,6 +125,24 @@
 
 ## Aula 5 👨‍💻
 
+> Publicando nossa API no Cloud
+
 ### Desafios da aula 5 ✨
 
+1. Compartilhe com seus amigos a sua URL do Heroku, para que eles possam consumir a sua API (com o padrão de atributos title e image) e gerar figurinhas do conteúdo que você utilizou (linguagens de programação, filmes, músicas);
+
+2. Colocar a aplicação no cloud da Oracle;
+
+3. Implementar algum mecanismo de votação na API, para que outros amigos votem nas linguagens preferidas para que se possa fazer um ranking;
+
+4. Desafio supremo: Evoluir o projeto das três primeiras aula para que ele gere um bundle de stickers, para que se possa fazer o download e já incluir vários stickers no WhatsApp; Usar os conhecimentos aprendidos em alguma imersão React da Alura e fazer uma aplicação front-end para gerar esse bundle, onde possa se passar a URL do conteúdo e já visualizar os stickers;
+
 #### Desafios feitos até o momento:
+
+1,
+
+### Maven
+
+- Comando para baixar dependências, rodar os testes e compilar
+
+            ./mvnw package
