@@ -183,3 +183,13 @@
 3. testar acesso a api no heroku no navegador
 
             https://alura-languages.herokuapp.com/api/v1/linguagens
+
+## Repositórios da Imersão Java 🗄️
+
+[alura stickers](https://github.com/rodolfoHOk/alura.imersao-java-stickers)
+
+[alura linguagens api](https://github.com/rodolfoHOk/alura.imersao-java-linguagens)
+
+## Deploy Url 🔥
+
+https://alura-languages.herokuapp.com/api/v1/linguagens
